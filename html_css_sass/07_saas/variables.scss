@@ -1,0 +1,12 @@
+$color:green;
+
+ul {
+    font-size: 14px;
+    /* Same color mentioned once */
+    color: $color;
+}
+ol {
+    /* Same color mentioned once again */
+    font-size: 18px;
+    color: $color;
+}

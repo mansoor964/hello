@@ -1,0 +1,13 @@
+// with normal css, we can't do the following:
+div {
+
+    font-size: 18px;
+    // This section we can't do with normal css, in other words (go for the paragraph only inside the div):
+        p {
+        color: blue;
+    }
+    // This section we can't do with normal css:
+    ul {
+        color: green;
+    }
+}

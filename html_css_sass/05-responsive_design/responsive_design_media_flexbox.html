@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex layout of the page</title>
+    <style>
+        <!--  -->
+        #container {                        /* Take the Elements with the id 'container' and make it a flex container */
+            display: flex;                  /* and i want to display that 'container' using flex box */
+            flex-wrap: wrap;                /* and in praticular i want to use the 'flex property' say if there is not enought room at the end of the line for all of the elements, go and wrap around all of those elements on the next line instead */
+        }
+        #container > div {                               /* apply some additional 'styles properties' to 'all div elements insde the container' */
+            background-color: springgreen;
+            font-size: 20px;
+            margin: 20px;
+            padding: 20px;
+            width: 200 px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div>1. This is some sample text inside a div to demo flexbox:</div>
+        <div>2. This is some sample text inside a div to demo flexbox:</div>
+        <div>3. This is some sample text inside a div to demo flexbox:</div>
+        <div>4. This is some sample text inside a div to demo flexbox:</div>
+        <div>5. This is some sample text inside a div to demo flexbox:</div>
+        <div>6. This is some sample text inside a div to demo flexbox:</div>
+        <div>7. This is some sample text inside a div to demo flexbox:</div>
+        <div>8. This is some sample text inside a div to demo flexbox:</div>
+        <div>9. This is some sample text inside a div to demo flexbox:</div>
+        <div>10. This is some sample text inside a div to demo flexbox:</div>
+        <div>11. This is some sample text inside a div to demo flexbox:</div>
+        <div>12. This is some sample text inside a div to demo flexbox:</div>
+    </div>
+</body>
+</html>

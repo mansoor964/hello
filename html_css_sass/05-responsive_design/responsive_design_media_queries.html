@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--it is used for responsive design, in case we open the web in the mobile screen-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using media-queries with viewport</title>
+    <style>
+        /*If the size of the body is more than 600px, it's background should be red by using media query:*/
+        @media (min-width:600px) {
+            body {
+                background-color: red;
+            }
+        }
+        /*If the size of the body is less than 600px, it's background should be blue by using media query:*/
+        @media (max-width:599px) {
+            body {
+                background-color: blue;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Welcome to my webpage</h1>
+</body>
+</html>

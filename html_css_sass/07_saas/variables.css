@@ -1,0 +1,13 @@
+ul {
+  font-size: 14px;
+  /* Same color mentioned once */
+  color: green;
+}
+
+ol {
+  /* Same color mentioned once again */
+  font-size: 18px;
+  color: green;
+}
+
+/*# sourceMappingURL=variables.css.map */
